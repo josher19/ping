@@ -8,6 +8,7 @@ var Ping = require('../lib/ping'),
 commander
   .version('0.0.1')
   .usage(' <url ...>')
+  .option('-t, --title [TITLE]', 'required title')
   .parse(process.argv);
  
 if (commander.args.length > 0) {
@@ -16,6 +17,7 @@ if (commander.args.length > 0) {
     monitor = new Ping({
         website: website,
         timeout: 0,
+        title: commander.title,
         repeat: !!commander.timer
     });    
 }

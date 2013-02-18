@@ -4,13 +4,21 @@
 */
 module.exports = [
     {
-        url: 'http://www.rflab.co.za',
-        timeout: 15
+        url: 'http://www.greasemonkey.cn/',
+        timeout: 59,
+        title: '油猴汽车快修'
+    },
+
+    {
+        url: 'http://www.greasemonkey.cn/en/',
+        timeout: 60,
+        title: 'Welcome to Grease Monkey'
     },
     
     {
-        url: 'http://www.bookmarkmanager.co.za',
-        timeout: 15
+        url: 'http://www.greasemonkeychina.com/',
+        timeout: 119,
+        title: '油猴汽车快修'
     },
     
     {

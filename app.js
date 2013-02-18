@@ -32,7 +32,7 @@ App = {
     
     createServer: function () {
         server = http.createServer(function (req, res) {
-            var data = "Monitoring the following websites: \n \n" + urls.join("\n");
+            var data = "Monitoring the following websites: \n \n" + monitors.join("\n");
             
             res.end(data);
         });
