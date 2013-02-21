@@ -1,9 +1,8 @@
-
 /*
     Gmail credentials
 */
 module.exports = {
-    email: 'qawemlilo@gmail.com',
-    password: 'aepdbsbwjeffnizx'
+    email: 'YOUREMAIL@gmail.com',
+    password: 'PASSWORD'
 };
 
